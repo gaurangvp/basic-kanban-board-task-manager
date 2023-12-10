@@ -75,7 +75,7 @@ export default function Home() {
             e.target.value = '';
           }
         else{
-          alert('Enter priority at end');
+          alert('Enter priority at end(0:For lowest priority and 2:For highest)\neg:<Task_name><0/1/2/3>');
         }
        
       }
